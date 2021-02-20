@@ -23,4 +23,5 @@ const out=_(citises)
     .take(6)
     .value()
 console.log(out)
+console.log(1)
 
