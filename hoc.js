@@ -12,7 +12,7 @@ const mult=(a,b)=>a*b;
 const curriedDivide=_.curry(divide);
 console.log(curriedDivide(10,2));
 console.log(curriedDivide(10)(2))
-
+console.log("dsadadsddad")
 const notFlatArray=[1,2,3,[4,5]]
 const sumFlat=_.flow([_.concat,_.flattenDeep,_.sum]);
 console.log(sumFlat(notFlatArray))
